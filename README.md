@@ -8,9 +8,7 @@ An updated page for a local bakery specializing in different cakes and pastries.
 
 ## Information
 
-picture of mvp below:
-
-https://github.com/MillyCodes/MaddyCakes2.0/blob/master/public/img/screen-cookies.png
+picture of mvp pages:
 ![Home/Index page](https://github.com/MillyCodes/MaddyCakes2.0/blob/master/public/img/screen-index.png)
 
 ![Product: Cupcakes Page](https://github.com/MillyCodes/MaddyCakes2.0/blob/master/public/img/screen-cookies.png)
