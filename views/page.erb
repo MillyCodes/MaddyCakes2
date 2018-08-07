@@ -1,0 +1,13 @@
+
+  <% @results.each do |results| %>
+    <div class="col-lg- col-md-3 mb-4">
+          <img class="img rounded-circle img-thumbnail" src="<%=results.url%>" alt="hello">
+          <div class="card">  
+            <div class="card-body product-card">
+              <h5 class="card-title"><%=results.name%></h5>
+              <p class="card-text"><%=results.description%></p>
+              <button type="button" class="btn btn-info btn-small">$ <%= results.price%></button>
+            </div>
+          </div>
+      </div>
+  <% end %>

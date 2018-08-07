@@ -1,0 +1,218 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+  background-image: url("img/bakery-bg.png");
+  background-repeat: repeat;
+  background-size: 30% auto;
+  padding-top: 0px;    
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 1.2rem;
+}
+
+
+
+.content{
+	background-color: rgba(255, 246, 153, .7);
+	min-height: 600px;
+}
+nav{
+	background-color: #ff6b6b;
+}
+/* override height too tall  */
+.navbar {
+	min-height:35px; 
+	height: 50px; 
+}
+
+
+.navbar-brand h3{
+	display: inline;
+	color: #F7FFF7;
+	font: normal 50px 'Cookie', cursive;
+	margin: 0;
+}
+
+.navbar-brand h3 span{
+	color:#4ECDC4;
+}
+
+.nav-link h5{
+	display: inline;
+	color: #1A535C;
+	font: normal 34px 'Cookie', cursive;
+	margin: 0;
+}
+
+.jumbotron {
+  background-color: rgba(255, 246, 153, .7);
+}
+.jumbotron h1{
+	display: inline;
+	color: #F7FFF7;
+	font: normal 72px 'Cookie', cursive;
+	margin: 0;
+}
+.jumbotron h1 span{
+	color:#4ECDC4;
+}
+
+.jumbotron h6{
+	display: inline;
+	color: #1A535C;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+
+
+.card{
+	height: 0%;
+}
+.card-body.product-card {
+	  background-color: rgba(245, 245, 245, .4);
+	  /* opacity: .4; */
+	}
+p.card-text{
+	font-size: 12px;
+}
+
+/* index styles */
+.page-section {
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+  }
+  
+  .section-heading {
+	text-transform: uppercase;
+  }
+  
+  .section-heading .section-heading-upper {
+	display: block;
+	font-size: 1rem;
+	font-weight: 800;
+  }
+  
+  .section-heading .section-heading-lower {
+	display: block;
+	font-size: 3rem;
+	font-weight: 100;
+  }
+  
+  .bg-faded {
+	background-color:rgb(255, 107, 107, 0.5);
+  }
+  
+
+footer{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #FF6B6B;
+	flex: 0 0 auto;
+	width: 100%;
+	text-align: left;
+	font: normal 16px sans-serif;
+}
+footie{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+footer .footer-main {
+	max-width: 880px;
+	margin: 2 auto;
+}
+
+footer .footer-left p{
+	color:#1A535C;
+	font-size: 14px;
+	text-align: center;
+	margin: 0;
+	padding: 5px;
+}
+
+/* The company logo */
+
+.footer-main h3{
+	color:  #F7FFF7; 
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+.footer-main h3 span{
+	color: #4ECDC4;
+}
+
+
+/* Footer links */
+
+footer p.footer-links{
+	font-size:14px;
+	font-weight: bold;
+	color: #F7FFF7;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+footer p.footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+footer .footer-right{
+	float: right;
+	margin-top: 6px;
+	max-width: 180px;
+}
+
+footer .footer-right a{
+	display: inline-block;
+	width: 30px;
+	height: 0px;
+	background-color:  #1A535C;
+	border-radius: 2px;
+
+	font-size: 16px;
+	color: #F7FFF7;
+	text-align: center;
+	line-height: 25px;
+
+	margin-left: 3px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+
+	footer .footer-left,
+	footer .footer-right{
+		text-align: center;
+	}
+
+	footer .footer-right{
+		float: none;
+		margin: 0 auto 20px;
+	}
+
+	footer .footer-left p.footer-links{
+		line-height: 1.8;
+	}
+}
+
+.fab {
+	color:#4ECDC4;
+  }
+
+/* @media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+} */
