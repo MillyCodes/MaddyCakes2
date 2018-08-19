@@ -19,7 +19,7 @@ body {
 
 
 .content{
-	background-color: rgba(255, 246, 153, .7);
+	background-color: rgba(255, 246, 153, .9);
 	min-height: 600px;
 }
 nav{
@@ -51,11 +51,11 @@ nav{
 }
 
 .jumbotron {
-  background-color: rgba(255, 246, 153, .7);
+  background-color: rgba(255, 246, 153, .9);
 }
 .jumbotron h1{
 	display: inline;
-	color: #F7FFF7;
+	color: #ff6b6b;
 	font: normal 72px 'Cookie', cursive;
 	margin: 0;
 }
@@ -76,7 +76,7 @@ nav{
 	height: 0%;
 }
 .card-body.product-card {
-	  background-color: rgba(245, 245, 245, .4);
+	  background-color: rgba(245, 245, 245, .8);
 	  /* opacity: .4; */
 	}
 p.card-text{
