@@ -10,21 +10,11 @@ An updated page for a local bakery specializing in different cakes and pastries.
 
 picture of mvp pages:
 
-![Home/Index page](https://github.com/MillyCodes/MaddyCakes2.0/blob/master/public/img/screen-index.png)
+![Home/Index page](https://github.com/MillyCodes/MaddyCakes2.0/blob/master/public/img/screenshot-index.png)
 
-![Product: Cupcakes Page](https://github.com/MillyCodes/MaddyCakes2.0/blob/master/public/img/screen-cookies.png)
-
-![Product: Cookie Page](https://github.com/MillyCodes/MaddyCakes2.0/blob/master/public/img/screen-cupcakes.png)
+![Product: Cupcakes Page](https://github.com/MillyCodes/MaddyCakes2.0/blob/master/public/img/screenshot-products.png)
 
 
 ### Known Issues
 
 Bootstrap footer changes look between index and layout pages, possibly due to the use of jumbotron vs divs in these two layouts.
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
