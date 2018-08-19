@@ -8,11 +8,13 @@ An updated page for a local bakery specializing in different cakes and pastries.
 
 ## Information
 
-picture of kitties below:
+picture of mvp pages:
 
-![Screenshot 1](http://placekitten.com/400/300)
+![Home/Index page](https://github.com/MillyCodes/MaddyCakes2.0/blob/master/public/img/screen-index.png)
 
-![Screenshot 2](http://placekitten.com/400/300)
+![Product: Cupcakes Page](https://github.com/MillyCodes/MaddyCakes2.0/blob/master/public/img/screen-cookies.png)
+
+![Product: Cookie Page](https://github.com/MillyCodes/MaddyCakes2.0/blob/master/public/img/screen-cupcakes.png)
 
 
 ### Known Issues
